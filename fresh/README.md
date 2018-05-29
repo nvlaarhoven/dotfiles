@@ -1,5 +1,7 @@
 # Fresh Installation
 
+### Take ssh keys
+
 ### Initialize
 
 1. Bring OS up to date.
@@ -7,33 +9,25 @@
 3. Install Command Line Developer Tools [+](https://developer.apple.com/downloads/)
 
 
-### Software (Personal & Work)
+### Software
 
 - [ ] 1Password (App Store)
-- [ ] Airmail (App Store)
-- [ ] Magnet (App Store)
 - [ ] Google Chrome [+](http://www.google.co.uk/chrome/)
 - [ ] Keynote (App Store)
 - [ ] Numbers (App Store)
 - [ ] Pages (App Store)
-- [ ] Spotify [+](http://www.spotify.com/)
-- [ ] The Unarchiver (App Store)
-- [ ] Wunderlist (App Store)
-
----
-
 - [ ] Android Studio [+](http://developer.android.com/tools/studio/)
-- [ ] Cyberduck
-- [ ] Daily - Time Tracking (App Store)
-- [ ] Daisy Disk (App Store)
+- [ ] Spotify [+](http://www.spotify.com/)
+- [ ] Freckle [+](https://dabapps.letsfreckle.com/time/dashboard/recent)
+- [ ] Toggl [+](https://toggl.com/)
 - [ ] Dropbox [+](https://dropbox.com/)
-- [ ] Gitify
 - [ ] Github Desktop [+](https://desktop.github.com/)
 - [ ] iTerm (with [Meslo Font](https://github.com/andreberg/Meslo-Font)) [+](https://www.iterm2.com/)
-- [ ] Sublime Text [+](http://www.sublimetext.com/)
+- [ ] vscode [+](https://code.visualstudio.com/)
 - [ ] Paw [+](https://paw.cloud)
 - [ ] Postgres App [+](http://postgresapp.com/)
 - [ ] Slack [+](https://slack.com/)
+- [ ] Recordit [+](http://recordit.co/)
 
 ---
 
@@ -75,4 +69,3 @@
     brew cask install android-platform-tools
     brew cask install facebook-ios-sdk
     brew cask install fastlane
-    brew cask install keepingyouawake

@@ -1,0 +1,31 @@
+{
+  "editor.formatOnSave": false,
+  "editor.rulers": [
+    120
+  ],
+  "editor.tabSize": 2,
+  "[python]": {
+    "editor.tabSize": 4
+  },
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  "editor.scrollBeyondLastLine": false,
+  "window.zoomLevel": 1,
+  "workbench.colorTheme": "Monokai Dimmed",
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.snippetSuggestions": "top",
+  "editor.formatOnPaste": false,
+  "extensions.ignoreRecommendations": true,
+  "tslint.autoFixOnSave": true,
+  "sublimeTextKeymap.promptV3Features": true,
+  "python.linting.enabledWithoutWorkspace": false,
+  "python.disablePromptForFeatures": [
+    "pylint"
+  ],
+  "cSpell.words": [
+    "chadmin",
+    "oneresearch",
+    "consts"
+  ]
+}
