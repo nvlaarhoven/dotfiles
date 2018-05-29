@@ -2,7 +2,7 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH=/Users/manos/.oh-my-zsh
+export ZSH=/Users/narani/.oh-my-zsh
 
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
@@ -103,29 +103,17 @@ export PATH=$PATH:/Applications/Postgres.app/Contents/Versions/latest/bin
 export PATH=$PATH:$ANDROID_HOME/tools
 export PATH=$PATH:$ANDROID_HOME/platform-tools
 
-export REACT_EDITOR="subl" # Add Sublimt Text to REACT_EDITOR for scriptin
+export REACT_EDITOR="code" # Add Code to REACT_EDITOR for scriptin
 
 
 # Aliases
 
-alias h="heroku"
-alias enva="source env/bin/activate"
-
 alias ni="npm install"
-alias ns="npm start"
-alias nb="npm run build"
-alias nw="npm run watch"
-alias nt="npm test"
-alias nj="npm run jest"
-
-alias nvmc="nvm current"
-
-alias emulator="/Users/manos/Library/Android/sdk/tools/emulator @Nexus4"
+alias emulator="/Users/narani/Library/Android/sdk/tools/emulator @Nexus4"
 
 
 # Catfish
 export CATFISH_HOSTNAME_OVERRIDE="localhost"
-alias catfish-start="~/Projects/catfish/start.command"
 
 ctp() {
   if [[ $@ == "start" ]]; then
@@ -149,9 +137,7 @@ ctp() {
   fi
 }
 
+# NVM
 
-# GitHub Personal Token (Mostly - Catfish)
-
-if [ -f ~/.github_token ]; then
-    export GITHUB_TOKEN=`cat ~/.github_token`
-fi
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm

@@ -2,6 +2,9 @@
 
 ### Take ssh keys
 
+    Copy all files within ~/.ssh (except for known_hosts) in a safe place
+    Paste them back after fresh install
+
 ### Initialize
 
 1. Bring OS up to date.
@@ -70,3 +73,21 @@
     brew cask install android-platform-tools
     brew cask install facebook-ios-sdk
     brew cask install fastlane
+
+
+### Start redis & install catfish
+
+    brew services start redis
+    clone catfish [+](https://github.com/dabapps/catfish)
+
+
+### Setup mysql
+
+    sudo vim /etc/my.cnf
+    > [mysqld]
+    >
+    > port=8889
+
+    mysql_secure_installation
+    mysql --host=localhost --port=8889 -u root -p
+    brew services start mysql

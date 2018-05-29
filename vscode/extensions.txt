@@ -1,0 +1,6 @@
+1. Install the editorconfig plugin
+2. Add an `.editorconfig` file in your home directory with config: https://github.com/dabapps/dotfiles/blob/master/.editorconfig
+
+Launching from the Command Line
+You can also run VS Code from the terminal by typing 'code' after adding it to the path:
+Open the Command Palette (⇧⌘P) and type 'shell command' to find the Shell Command: Install 'code' command in PATH command.
