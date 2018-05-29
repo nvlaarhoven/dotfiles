@@ -32,7 +32,6 @@
 - [ ] Pages (App Store)
 - [ ] Toggl (App Store)
 - [ ] Slack (App Store)
-- [ ] Freckle (App Store)
 
 - [ ] Postgres App [+](http://postgresapp.com/)
 - [ ] Google Chrome [+](http://www.google.co.uk/chrome/)
