@@ -5,6 +5,18 @@
     Copy all files within ~/.ssh (except for known_hosts) in a safe place
     Paste them back after fresh install
 
+
+### Bootable installer MacOS
+
+    1. Put Bootable installer MacOS on USB
+    2. Turn machine off and on
+    3. Press 'alt' while machine turning on
+    4. Choose 'boot from USB drive'
+    5. When Disk Utilities open, first erase harddrive
+    6. Then install macOS
+    Choose Apple File System (APFS)
+
+
 ### Initialize
 
 1. Bring OS up to date.
@@ -26,16 +38,14 @@
 - [ ] Google Chrome [+](http://www.google.co.uk/chrome/)
 - [ ] Dropbox [+](https://dropbox.com/)
 - [ ] Github Desktop [+](https://desktop.github.com/)
-- [ ] iTerm (with [Meslo Font](https://github.com/andreberg/Meslo-Font)) [+](https://www.iterm2.com/)
+- [ ] iTerm [+](https://www.iterm2.com/)
 - [ ] vscode [+](https://code.visualstudio.com/)
 - [ ] Paw [+](https://paw.cloud)
 - [ ] Recordit [+](http://recordit.co/)
 - [ ] Spotify [+](http://www.spotify.com/)
 
 - [ ] Android Studio [+](http://developer.android.com/tools/studio/)
----
 
-- [ ] Oh my ZSH [+](https://github.com/robbyrussell/oh-my-zsh)
 
 ### Oh my zsh
 
@@ -86,7 +96,7 @@
     sudo vim /etc/my.cnf
     > [mysqld]
     >
-    > port=8889
+    > port = 8889
 
     mysql_secure_installation
     mysql --host=localhost --port=8889 -u root -p
