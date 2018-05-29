@@ -12,23 +12,24 @@
 ### Software
 
 - [ ] 1Password (App Store)
-- [ ] Google Chrome [+](http://www.google.co.uk/chrome/)
 - [ ] Keynote (App Store)
 - [ ] Numbers (App Store)
 - [ ] Pages (App Store)
-- [ ] Android Studio [+](http://developer.android.com/tools/studio/)
-- [ ] Spotify [+](http://www.spotify.com/)
-- [ ] Freckle [+](https://dabapps.letsfreckle.com/time/dashboard/recent)
-- [ ] Toggl [+](https://toggl.com/)
+- [ ] Toggl (App Store)
+- [ ] Slack (App Store)
+- [ ] Freckle (App Store)
+
+- [ ] Postgres App [+](http://postgresapp.com/)
+- [ ] Google Chrome [+](http://www.google.co.uk/chrome/)
 - [ ] Dropbox [+](https://dropbox.com/)
 - [ ] Github Desktop [+](https://desktop.github.com/)
 - [ ] iTerm (with [Meslo Font](https://github.com/andreberg/Meslo-Font)) [+](https://www.iterm2.com/)
 - [ ] vscode [+](https://code.visualstudio.com/)
 - [ ] Paw [+](https://paw.cloud)
-- [ ] Postgres App [+](http://postgresapp.com/)
-- [ ] Slack [+](https://slack.com/)
 - [ ] Recordit [+](http://recordit.co/)
+- [ ] Spotify [+](http://www.spotify.com/)
 
+- [ ] Android Studio [+](http://developer.android.com/tools/studio/)
 ---
 
 - [ ] Oh my ZSH [+](https://github.com/robbyrussell/oh-my-zsh)
