@@ -7,7 +7,7 @@ export ZSH=/Users/narani/.oh-my-zsh
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-ZSH_THEME="bureau"
+ZSH_THEME="af-magic"
 
 # Set list of themes to load
 # Setting this variable when ZSH_THEME=random
@@ -130,8 +130,12 @@ ctp() {
       command ctf project logs
   elif [[ $@ == "shell" ]]; then
       command ctf project run -- python manage.py shell
+  elif [[ $@ == "showmigrations" ]]; then
+      command ctf project run -- python manage.py showmigrations
+  elif [[ $@ == "makemigrations" ]]; then
+      command ctf project run -- python manage.py makemigrations "$@"
   elif [[ $@ == "migrate" ]]; then
-      command ctf project run -- python manage.py migrate
+      command ctf project run -- python manage.py migrate "$@"
   else
       command ctf project "$@"
   fi

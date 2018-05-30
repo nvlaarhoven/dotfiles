@@ -14,7 +14,7 @@
     4. Choose 'boot from USB drive'
     5. When Disk Utilities open, first erase harddrive
     6. Then install macOS
-    Choose Apple File System (APFS)
+    Choose Apple File System (APFS Encrypted)
 
 
 ### Initialize
@@ -44,7 +44,7 @@
 - [ ] Spotify [+](http://www.spotify.com/)
 
 - [ ] Android Studio [+](http://developer.android.com/tools/studio/)
-
+- [ ] Java JDK [+](https://facebook.github.io/react-native/docs/getting-started.html#java-development-kit)
 
 ### Oh my zsh
 
